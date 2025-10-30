@@ -119,7 +119,7 @@ export default function App() {
   return (
     <div className="min-h-screen text-gray-900 antialiased" style={{backgroundColor: '#FFF9E6'}}>
       <header className="relative h-[70vh] w-full overflow-hidden">
-        <img src="/images/hero.jpg" alt="bride-groom" className="object-cover w-full h-full" />
+        <img src="/hero.png" alt="bride-groom" className="object-cover w-full h-full" />
         <div className="absolute inset-0 bg-gradient-to-b from-black/40 to-black/20 flex items-center">
           <div className="max-w-4xl mx-auto px-6">
             <h2 className="text-5xl md:text-6xl font-bold text-white mb-4" style={{textShadow: '0 4px 8px rgba(0,0,0,0.3)'}}>Bride & Groom</h2>
